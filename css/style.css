@@ -46,3 +46,14 @@ body{
     border: 2px solid white;
     border-radius: 20px;
 }
+
+/* .table_hover img{
+    opacity: 0.7;
+    transition: all ease 0.3;
+}
+
+.table_hover img::hover{
+    opacity: 1;
+    transition: all ease 0.3;
+    transform: scaleY(5px);
+} */
