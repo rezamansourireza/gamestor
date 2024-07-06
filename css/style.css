@@ -11,9 +11,9 @@ body{
      background: url(/images/backVec.png) repeat;
 }
 
-.navbar_bg{
+/* .navbar_bg{
     background-color: #bf357e;
-}
+} */
 
 
 .brand_logo{
@@ -21,9 +21,9 @@ body{
     padding-top: 5px;
 }
 
-.bgback{
+/* .bgback{
     background-color: #8d6e6338  ;
-}
+} */
 
 
 
@@ -31,13 +31,16 @@ body{
     box-sizing: border-box;
     border: 2px solid white;
     border-radius: 20px;
-    /* padding: 5px;
-    margin: 5px; */
+    margin: 5px;
 }
 
 .bx_size img{
     height: 100px;
 }
+
+/* .box_siz{
+    gap: 5px;
+} */
 
 .price_sec{
     border: 2px solid white;
