@@ -7,8 +7,8 @@
     font-style: normal;
 }
 
-body{
-     background: url(/images/backVec.png) repeat;
+body {
+    background: url(/images/backVec.png) repeat;
 }
 
 /* .navbar_bg{
@@ -16,7 +16,7 @@ body{
 } */
 
 
-.brand_logo{
+.brand_logo {
     width: 2em;
     padding-top: 5px;
 }
@@ -27,22 +27,25 @@ body{
 
 
 
-.bx_size{
+.bx_size {
     box-sizing: border-box;
     border: 2px solid white;
     border-radius: 20px;
     margin: 5px;
 }
 
-.bx_size img{
+.bx_size img {
     height: 100px;
+    width: 100px;
+    align-items: center !important;
+    justify-content: center !important;
 }
 
 /* .box_siz{
     gap: 5px;
 } */
 
-.price_sec{
+.price_sec {
     border: 2px solid white;
     border-radius: 20px;
 }
