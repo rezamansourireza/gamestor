@@ -12,15 +12,15 @@
 
 <body>
 
-
     <!------------------------------------ navBat Start------------------------------------>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top opacity-75">
         <div class="container-fluid" dir="rtl">
 
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
+
             <a class="navbar-brand" href="#">
                 <img src="/images/klipartz.com.png" class="brand_logo align-items-lg-center" alt="">
             </a>
@@ -28,16 +28,16 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item btn-dark">
-                        <a class="nav-link active" aria-current="page" href="#">خانه</a>
+                        <a class="nav-link active" aria-current="page" href="#">صفحه اول</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">محصولات و قیمت ها</a>
+                        <a class="nav-link" href="#price">محصولات و قیمت ها</a>
                     </li>
                     <li class="nav-item btn-dark">
-                        <a class="nav-link" href="#">نمونه کار ها</a>
+                        <a class="nav-link" href="#main">نمونه کار ها</a>
                     </li>
                     <li class="nav-item btn-dark">
-                        <a class="nav-link" href="#">تماس با ما</a>
+                        <a class="nav-link" href="#tel_us">تماس با ما</a>
                     </li>
                 </ul>
             </div>
@@ -45,6 +45,19 @@
         </div>
     </nav>
     <!------------------------------------ navBat End------------------------------------>
+
+
+    <!------------------------------------ Banner start------------------------------------>
+    <div class="card text-bg-dark">
+        <img src="images/banner/banner1.jpg" class="card-img" alt="...">
+        <div class="card-img-overlay">
+            <h2 class="card-title"> طرااحی صفر تا 100 سایت </h2>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                content. This content is a little bit longer.</p>
+            <p class="card-text"><small> ✌️😅مشتری شدن اتفاقی نیست </small></p>
+        </div>
+    </div>
+    <!------------------------------------ Banner End------------------------------------>
 
     <!------------------------------------ BodyCarousel Start------------------------------------>
     <div class="container py-5">
@@ -77,9 +90,8 @@
 
 
     <!------------------------------------ Pricing Plans Start------------------------------------>
-
-    <div class="row row-cols-1 row-cols-md-4 g-3" dir="rtl">
-        <div class="col">
+    <div class="row" dir="rtl" id="price">
+        <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 my-2">
             <div class="card h-100 bx_size">
                 <img src="/images/sale/blu.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
@@ -91,7 +103,7 @@
 
             </div>
         </div>
-        <div class="col">
+        <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 my-2">
             <div class="card h-100 bx_size">
                 <img src="/images/sale/red.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
@@ -101,7 +113,7 @@
                 </div>
             </div>
         </div>
-        <div class="col">
+        <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 my-2">
             <div class="card h-100 bx_size">
                 <img src="/images/sale/whi.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
@@ -112,7 +124,7 @@
                 </div>
             </div>
         </div>
-        <div class="col">
+        <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 my-2">
             <div class="card h-100 bx_size">
                 <img src="/images/sale/greee.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
@@ -123,18 +135,18 @@
                 </div>
             </div>
         </div>
-        <div class="col">
+        <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 my-2">
             <div class="card h-100 bx_size">
                 <img src="/images/sale/klipartz.com (5).png" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">مشارکت در پروژه</h5>
                     <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
                         additional content. This content is a little bit longer.</p>
-                        <a href="#" class="btn btn-outline-info">خرید طرح</a>
+                    <a href="#" class="btn btn-outline-info">خرید طرح</a>
                 </div>
             </div>
         </div>
-        <div class="col">
+        <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 my-2">
             <div class="card h-100 bx_size">
                 <img src="/images/sale/klipartz.com (7).png" class="card-img-top" alt="...">
                 <div class="card-body">
@@ -145,7 +157,7 @@
                 </div>
             </div>
         </div>
-        <div class="col">
+        <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 my-2">
             <div class="card h-100 bx_size">
                 <img src="/images/sale/klipartz.com (6).png" class="card-img-top" alt="...">
                 <div class="card-body">
@@ -156,7 +168,7 @@
                 </div>
             </div>
         </div>
-        <div class="col">
+        <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 my-2">
             <div class="card h-100 bx_size">
                 <img src="/images/sale/klipartz.com (4).png" class="card-img-top" alt="...">
                 <div class="card-body">
@@ -168,126 +180,102 @@
             </div>
         </div>
     </div>
-
-
-
-
-
-
-
-    <!-- <div class="row container-xxl justify-content-between" dir="rtl">
-        <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 mb-3 mb-sm-3">
-            <div class="card">
-                <div class="card-body bx_size">
-                    <img src="/images/sale/whi.jpg" class="m-2" alt="">
-                    <h5 class="card-title">طرح اقتصادی</h5>
-                    <p class="card-text display-6">With supporting text below as a natural lead-in to additional
-                        content.</p>
-                    <a href="#" class="btn btn-primary">خرید طرح</a>
-                </div>
-            </div>
-        </div>
-        <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 mb-3 mb-sm-3">
-            <div class="card">
-                <div class="card-body bx_size">
-                    <img src="/images/sale/greee.jpg" class="m-2" alt="">
-                    <h5 class="card-title">طرح ویژه</h5>
-                    <p class="card-text lead">With supporting text below as a natural lead-in to additional content.</p>
-                    <a href="#" class="btn btn-primary">خرید طرح</a>
-                </div>
-            </div>
-        </div>
-        <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 mb-3 mb-sm-3">
-            <div class="card">
-                <div class="card-body bx_size">
-                    <img src="/images/sale/red.jpg" class="m-2" alt="">
-                    <h5 class="card-title">طرح پایه</h5>
-                    <p class="card-text blockquote">With supporting text below as a natural lead-in to additional
-                        content.</p>
-                    <a href="#" class="btn btn-primary">خرید طرح</a>
-                </div>
-            </div>
-        </div>
-        <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 mb-3 mb-sm-3">
-            <div class="card">
-                <div class="card-body bx_size">
-                    <img src="/images/sale/blu.jpg" class="m-2" alt="">
-                    <h5 class="card-title">طرح پر طرفدار</h5>
-                    <p class="card-text blockquote">With supporting text below as a natural lead-in to additional
-                        content.</p>
-                    <a href="#" class="btn btn-primary">خرید طرح</a>
-                </div>
-            </div>
-        </div>
-    </div> -->
     <!------------------------------------ Pricing Plans End------------------------------------>
 
 
+    <!------------------------------------ Banner Start------------------------------------>
+    <div class="container text-center py-5" id="main">
+        <div class="row">
+            <div class=" col-sm-12 col-md-6 col-lg-6">
+                <img src="images/gif/web-development.gif" class="img-thumbnail" alt="">
+            </div>
+            <div class=" col-sm-12 col-md-6 col-lg-6 align-content-center justify-content-center">
+                <h2>دیده شدن همیشه با ایده های جدید ممکنه</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, aspernatur architecto? Officia
+                    doloribus veniam soluta, sint odio illo fugit dolorem?</p>
+            </div>
+        </div>
+    </div>
+    <div class="container text-center py-5">
+        <div class="row">
+            <div class=" col-sm-12 col-md-12 col-lg-12">
+                <img src="images/gif/pxfuel (1).jpg" class="img-thumbnail" alt="">
+            </div>
+            <div class=" col-sm-12 col-md-12 col-lg-12 align-content-center justify-content-center">
+                <h2>با خیال راحت بک اند و فرانت اند رو به تیم ما بسپار</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, aspernatur architecto? Officia
+                    doloribus veniam soluta, sint odio illo fugit dolorem?</p>
+            </div>
+        </div>
+    </div>
+    <div class="container text-center py-5" dir="rtl">
+        <div class="row">
+            <div class=" col-sm-12 col-md-6 col-lg-6">
+                <img src="images/gif/about7.gif" class="img-thumbnail" alt="">
+            </div>
+            <div class=" col-sm-12 col-md-6 col-lg-6 align-content-center justify-content-center">
+                <h2>کار تیمی همیشه جواب میده</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, aspernatur architecto? Officia
+                    doloribus veniam soluta, sint odio illo fugit dolorem?</p>
+            </div>
+        </div>
+    </div>
+    <!------------------------------------ Banner End------------------------------------>
+
     <!------------------------------------ Footer Start------------------------------------>
-    <div class="container-fluid my-5" dir="rtl">
-        <footer class="bg-secondary text-center text-lg-start text-white">
+    <div class="container-fluid my-5" dir="rtl" id="tel_us">
+        <footer class="bg-info text-center text-lg-center text-white">
             <div class="container p-4">
                 <div class="row my-4">
-                    <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+
+                    <div class="col-lg-4 col-md-4 mb-4 mb-md-0 centered">
                         <div class="rounded-circle bg-white shadow-1-strong d-flex align-items-center justify-content-center mb-4 mx-auto"
                             style="width: 150px; height: 150px;">
                             <img src="/images/images.png" height="70" alt="" loading="lazy" />
                         </div>
-                        <p class="text-center">کیفیت .. امنیت .. سرعت بالا</p>
+                        <h5 class="text-center">کیفیت .. امنیت .. سرعت</h5>
+                    </div>
 
-                        <ul class="list-unstyled d-flex flex-row justify-content-center">
-                            <li>
-                                <a class="text-white px-2" href="#!">
-                                    <i class="fab fa-facebook-square"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a class="text-white px-2" href="#!">
-                                    <i class="fab fa-instagram"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a class="text-white ps-2" href="#!">
-                                    <i class="fab fa-youtube"></i>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-                        <h5 class="mb-4">حامیان سایت</h5>
+                    <div class="col-lg-4 col-md-4 mb-4">
                         <ul class="list-unstyled">
-                            <li class="mb-2">
-                                <a href="#!" class="text-white"><i class="fas fa-paw pe-3"></i>لیمو هاست</a>
+                            <h5 class="mb-4 ">حامیان سایت</h5>
+                            <li class="mb-2 ">
+                                <i class="fa-solid fa-money-check-dollar"></i>
+                                <a href="#" class="text-white link-underline link-underline-opacity-0">لیمو هاست</a>
                             </li>
-                            <li class="mb-2">
-                                <a href="#!" class="text-white"><i class="fas fa-paw pe-3"></i>پارس پک</a>
+                            <li class="mb-2 ">
+                                <i class="fa-solid fa-money-check-dollar"></i>
+                                <a href="#" class="text-white link-underline link-underline-opacity-0">پارس پک</a>
                             </li>
-                            <li class="mb-2">
-                                <a href="#!" class="text-white"><i class="fas fa-paw pe-3"></i>ایرانسل</a>
+                            <li class="mb-2 ">
+                                <i class="fa-solid fa-money-check-dollar"></i>
+                                <a href="#" class="text-white link-underline link-underline-opacity-0">ایرانسل</a>
                             </li>
-                            <li class="mb-2">
-                                <a href="#!" class="text-white"><i class="fas fa-paw pe-3"></i>شاتل</a>
+                            <li class="mb-2 ">
+                                <i class="fa-solid fa-money-check-dollar"></i>
+                                <a href="#" class="text-white link-underline link-underline-opacity-0">شاتل</a>
                             </li>
                         </ul>
                     </div>
-                    <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-                        <h5 class="text-uppercase mb-4">تماس با ما</h5>
 
+                    <div class="col-lg-4 col-md-4 mb-4 mb-md-0">
                         <ul class="list-unstyled">
+                            <h5 class="mb-4 ">تماس با ما</h5>
                             <li>
-                                <p><i class="fas fa-map-marker-alt pe-2"></i>ایران / تهران</p>
+                                <p><i class="fa-solid fa-location-dot"></i>ایران / تهران</p>
                             </li>
                             <li>
-                                <p><i class="fas fa-phone pe-2"></i>09185940305</p>
+                                <p><i class="fa-sharp fa-solid fa-phone"></i>09185940305</p>
                             </li>
                             <li>
-                                <p><i class="fas fa-envelope pe-2 mb-0"></i>Info@yahoo.com</p>
+                                <p><i class="fa-solid fa-envelope"></i>Info@yahoo.com</p>
                             </li>
                         </ul>
                     </div>
+
                 </div>
             </div>
-            <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+            <div class=" p-3" style="background-color: rgba(0, 0, 0, 0.2)">
                 © 2024 Copyright:
                 <a class="text-white" href="#">OurExampels.com</a>
             </div>
@@ -298,6 +286,7 @@
 
     <script src="/js/bootstrap.min.js">
     </script>
+    <script src="https://kit.fontawesome.com/431b44931a.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
