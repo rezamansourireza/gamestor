@@ -11,6 +11,10 @@ body {
     background: url(/images/backVec.png) repeat;
 }
 
+.top_sec_nav{
+    margin-top: 64px;
+}
+
 /* .navbar_bg{
     background-color: #bf357e;
 } */
@@ -60,3 +64,13 @@ body {
     transition: all ease 0.3;
     transform: scaleY(5px);
 } */
+
+.link_us li a{
+    color: white;
+}
+
+.flouting_quick-access{
+    position: relative;
+    right: 10px;
+    bottom: -10px;
+}
