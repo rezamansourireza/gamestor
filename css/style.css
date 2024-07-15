@@ -8,27 +8,18 @@
 }
 
 body {
-    background: url(/images/backVec.png) repeat;
+    background: url(/images/vp9.jpeg) repeat;
 }
 
 .top_sec_nav{
     margin-top: 64px;
 }
 
-/* .navbar_bg{
-    background-color: #bf357e;
-} */
-
 
 .brand_logo {
     width: 2em;
     padding-top: 5px;
 }
-
-/* .bgback{
-    background-color: #8d6e6338  ;
-} */
-
 
 
 .bx_size {
@@ -54,16 +45,6 @@ body {
     border-radius: 20px;
 }
 
-/* .table_hover img{
-    opacity: 0.7;
-    transition: all ease 0.3;
-}
-
-.table_hover img::hover{
-    opacity: 1;
-    transition: all ease 0.3;
-    transform: scaleY(5px);
-} */
 
 .link_us li a{
     color: white;
