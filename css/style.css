@@ -11,7 +11,7 @@ body {
     background: url(/images/vp9.jpeg) repeat;
 }
 
-.top_sec_nav{
+.top_sec_nav {
     margin-top: 64px;
 }
 
@@ -46,11 +46,11 @@ body {
 }
 
 
-.link_us li a{
+.link_us li a {
     color: white;
 }
 
-.flouting_quick-access{
+.flouting_quick-access {
     position: relative;
     right: 10px;
     bottom: -10px;
