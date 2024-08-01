@@ -7,13 +7,55 @@
     font-style: normal;
 }
 
+
 body {
     background: url(/images/vp9.jpeg) repeat;
 }
 
-.top_sec_nav {
-    margin-top: 64px;
+
+nav .brand-logo img{
+    margin-top: 0.2rem;
+    width: 50px;
+    filter: drop-shadow(0 0 1px white);
+    -webkit-filter: drop-shadow(0 0 1px white);
+    transition: all ease 200ms;
 }
+
+nav .brand-logo img:hover{
+    filter: drop-shadow(0 0 5px #f3e5f5 );
+    transition: all ease 200ms;
+
+}
+
+#mobile-demo{
+    background: url(/images/gif/pxfuel.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#mobile-demo li{
+    width: 100%;
+}
+#mobile-demo li a{
+    text-align: center;
+    color: white;
+    transition: all 100ms ease;
+}
+#mobile-demo li a:hover{
+    background-color: rgba(0, 0, 0, 0.3);
+    font-size: 1.3rem;
+    backdrop-filter: blur(1px);
+    -webkit-backdrop-filter: blur(1px);
+}
+
+
+/* .top_sec_nav {
+    margin-top: 64px;
+} */
 
 
 .brand_logo {

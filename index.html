@@ -7,348 +7,405 @@
     <title>Making Your Web</title>
     <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="/css/util.css">
-    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/materialize.css">
+    <link rel="stylesheet" href="/css/materialize-rtl.css">
 </head>
 
 <body>
     <!------------------------------------ navBat Start------------------------------------>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top opacity-75">
-        <div class="container-fluid" dir="rtl">
-
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <a class="navbar-brand" href="#">
-                <img src="/images/klipartz.com.png" class="brand_logo align-items-lg-center" alt="">
-            </a>
-
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item btn-dark">
-                        <a class="nav-link active" aria-current="page" href="#">صفحه اول</a>
-                    </li>
-                    <li class="nav-item btn-dark">
-                        <a class="nav-link" href="#main">نمونه کار ها</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#price">تعرفه ها</a>
-                    </li>
-                    <li class="nav-item btn-dark">
-                        <a class="nav-link" href="#tel_us">تماس با ما</a>
-                    </li>
+    <header class="navbar-fixed">
+        <nav>
+            <div class="nav-wrapper grey darken-1">
+                <a href="#" class="brand-logo center center-align">
+                    <img src="/images/klipartz.com.png" class="brand_logo align-items-lg-center navbar_logo" alt="">
+                </a>
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger right"><i class="material-icons">
+                        <i class="fa-solid fa-bars"></i>
+                    </i></a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="#tel_us"> تماس با ما </a></li>
+                    <li><a href="#price"> طرح ها و تعرفه ها </a></li>
+                    <li><a href="#main"> نمونه کار ها </a></li>
                 </ul>
             </div>
-
-        </div>
-    </nav>
+        </nav>
+        <ul class="sidenav" id="mobile-demo">
+            <li><a href="#main"> نمونه کار ها </a></li>
+            <li><a href="#price"> طرح ها و تعرفه ها </a></li>
+            <li><a href="#tel_us"> تماس با ما </a></li>
+        </ul>
+    </header>
     <!------------------------------------ navBat End------------------------------------>
 
 
     <!------------------------------------ Banner start------------------------------------>
-    <div class="card text-bg-dark">
-        <img src="images/banner/banner1.jpg" class="card-img" alt="...">
-        <div class="card-img-overlay">
-            <h2 class="card-title"> طرااحی صفر تا 100 سایت </h2>
-            <p class="card-text">
-                تو دنیا ی امروز اگه میخوای کسب و کارت حسابی بگیره
-                <br>
-                اگه میخوای برند بازار بشی حتما باید یه وبسایت خوب داشته باشی
-                <br>
-                وبسایت رشد هر کسب و کاری رو تضمین میکنه
-            </p>
-            <p class="card-text"><small> ✌️😅مشتری شدن اتفاقی نیست </small></p>
+    <div class="row" dir="rtl">
+        <div class="col s12 m12 l12 xl12">
+            <div class="card">
+                <div class="card-image">
+                    <img src="/images/banner/banner1.jpg">
+                    <span class="card-title"> طرااااحی صفر تا 100 سایت </span>
+                </div>
+                <div class="card-content">
+                    <p>تو دنیا ی امروز اگه میخوای کسب و کارت حسابی بگیره
+                        <br>
+                        اگه میخوای برند بازار بشی حتما باید یه وبسایت خوب داشته باشی
+                        <br>
+                        وبسایت رشد هر کسب و کاری رو تضمین میکنه</p>
+                </div>
+
+            </div>
         </div>
     </div>
     <!------------------------------------ Banner End------------------------------------>
 
-    <img src="/images/1.png" class="container-fluid col" alt="" id="main">
-    <h3 class="display-2 text-muted text-center py-2">نمونه کار ها</h3>
+
+    <div class="img_cec_container row">
+        <img src="/images/1.png" class="img_cec col s12 m12 l4 xl4" alt="" id="main">
+        <img src="/images/1.png" class="img_cec hide-on-med-and-down col s12 m10 l4 xl4 " alt="">
+        <img src="/images/1.png" class="img_cec hide-on-med-and-down col s12 m10 l4 xl4 " alt="">
+    </div>
+    <h3 class="display-2 text-muted text-center py-2"> نمونه ها </h3>
+
 
     <!------------------------------------ BodyCarousel Start------------------------------------>
-    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="/images/carosel/a1.jpg" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-                <img src="/images/carosel/a2.jpg" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-                <img src="/images/carosel/b1.jpg" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-                <img src="/images/carosel/b2.jpg" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-                <img src="/images/carosel/c1.jpg" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-                <img src="/images/carosel/c2.jpg" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-                <img src="/images/carosel/dd.jpg" class="d-block w-100" alt="...">
-            </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
-            data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
-            data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
+    <div class="carousel carousel-slider top_carousel">
+        <a href="#" class="carousel-item">
+            <img src="/images/carosel/a1.jpg" alt="">
+        </a>
+        <a href="#" class="carousel-item">
+            <img src="/images/carosel/a2.jpg" alt="">
+        </a>
+        <a href="#" class="carousel-item">
+            <img src="/images/carosel/b1.jpg" alt="">
+        </a>
+        <a href="#" class="carousel-item">
+            <img src="/images/carosel/b2.jpg" alt="">
+        </a>
+        <a href="#" class="carousel-item">
+            <img src="/images/carosel/c1.jpg" alt="">
+        </a>
+        <a href="#" class="carousel-item">
+            <img src="/images/carosel/c2.jpg" alt="">
+        </a>
+        <a href="#" class="carousel-item">
+            <img src="/images/carosel/dd.jpg" alt="">
+        </a>
     </div>
     <!------------------------------------ BodyCarousel End------------------------------------>
 
-    <img src="/images/1.png" class="container-fluid col" alt="" id="price">
+
+    <div class="img_cec_container row">
+        <img src="/images/1.png" class="img_cec col s12 m12 l4 xl4" alt="" id="price">
+        <img src="/images/1.png" class="img_cec hide-on-med-and-down col s12 m10 l4 xl4 " alt="">
+        <img src="/images/1.png" class="img_cec hide-on-med-and-down col s12 m10 l4 xl4 " alt="">
+    </div>
+    <h3 class="display-2 text-muted text-center py-2"> طرح ها و تعرفه ها </h3>
 
 
     <!------------------------------------ Pricing Plans Start------------------------------------>
-    <div class="row" dir="rtl">
-        <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 my-2">
-            <div class="card h-100 bx_size">
-                <img src="/images/sale/blu.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">طرح پر طرفدار</h5>
-                    <p class="card-text">قیمت مناسب
-                        <br>
-                        پرفورمنس مطلوب
-                        <br>
-                        امنیت مطلوب
-                    </p>
-                    <a href="#" class="btn btn-outline-info">خرید طرح</a>
-                </div>
+    <div class="row">
 
+        <div class="card col s12 m6 l3 hoverable">
+            <div class="card-image waves-effect waves-block waves-light">
+                <img class="activator max-w-100" src="/images/sale/whi.jpg">
             </div>
-        </div>
-        <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 my-2">
-            <div class="card h-100 bx_size">
-                <img src="/images/sale/red.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">طرح پایه</h5>
-                    <p class="card-text">
-                        وبسایت تک صفحه ای با طراحی ساده و شیک
-                    </p>
-                    <a href="#" class="btn btn-outline-info">خرید طرح</a>
-                </div>
+            <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4"><i class="fa-solid fa-circle-plus"></i> طرح
+                    پرطرفدار </span>
             </div>
-        </div>
-        <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 my-2">
-            <div class="card h-100 bx_size">
-                <img src="/images/sale/whi.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">طرح اقتصادی</h5>
-                    <p class="card-text">
-                        حداقل قیمت
-                        <br>
-                        ساده و زیبا
-                    </p>
-                    <a href="#" class="btn btn-outline-info">خرید طرح</a>
-                </div>
+            <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4">
+                    <i class="fa-solid fa-xmark"></i>
+                    بستن
+                </span>
+                <p>قیمت مناسب
+                    <br>
+                    پرفورمنس مطلوب
+                    <br>
+                    امنیت مطلوب</p>
             </div>
+            <a class="waves-effect waves-light btn-small m-b-10 blue lighten-1" href="tel:+989185940305"><i
+                    class="fa-solid fa-phone-volume"></i> مشاوره و خرید طرح </a>
+
         </div>
-        <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 my-2">
-            <div class="card h-100 bx_size">
-                <img src="/images/sale/greee.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">طرح ویژه</h5>
-                    <p class="card-text">
-                        پرفورمنس بالا
-                        <br>
-                        امنیت بالا
-                        <br>
-                        طراحی با سلیقه دلخواه
-                    </p>
-                    <a href="#" class="btn btn-outline-info">خرید طرح</a>
-                </div>
+
+        <div class="card col s12 m6 l3 hoverable">
+            <div class="card-image waves-effect waves-block waves-light">
+                <img class="activator max-w-100" src="/images/sale/whi.jpg">
             </div>
-        </div>
-        <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 my-2">
-            <div class="card h-100 bx_size">
-                <img src="/images/sale/klipartz.com (5).png" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">مشارکت در پروژه</h5>
-                    <p class="card-text">
-                        مشارکت در ابرپروژه ها
-                        <br>
-                        طبق درخواست کارفرما
-                    </p>
-                    <a href="#" class="btn btn-outline-info">خرید طرح</a>
-                </div>
+            <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4"><i class="fa-solid fa-circle-plus"></i> طرح
+                    پایه </span>
             </div>
-        </div>
-        <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 my-2">
-            <div class="card h-100 bx_size">
-                <img src="/images/sale/klipartz.com (7).png" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">عیب یابی پروژه</h5>
-                    <p class="card-text">
-                        تعمیر و بازسازی وبسایت های قدیمی
-                    </p>
-                    <a href="#" class="btn btn-outline-info">خرید طرح</a>
-                </div>
+            <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4">
+                    <i class="fa-solid fa-xmark"></i>
+                    بستن
+                </span>
+                <p>
+                    وبسایت تک صفحه ای
+                    <br>
+                    با طراحی ساده و شیک
+                </p>
             </div>
+            <a class="waves-effect waves-light btn-small m-b-10 blue lighten-1" href="tel:+989185940305"><i
+                    class="fa-solid fa-phone-volume"></i> مشاوره و خرید طرح </a>
+
         </div>
-        <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 my-2">
-            <div class="card h-100 bx_size">
-                <img src="/images/sale/klipartz.com (6).png" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">تامین امنیت</h5>
-                    <p class="card-text">
-                        عیب یابی و باگ یابی
-                        <br>
-                        تامین امنیت کد ها و حذف کد های مخرب
-                    </p>
-                    <a href="#" class="btn btn-outline-info">خرید طرح</a>
-                </div>
+
+        <div class="card col s12 m6 l3 hoverable">
+            <div class="card-image waves-effect waves-block waves-light">
+                <img class="activator max-w-100" src="/images/sale/whi.jpg">
             </div>
-        </div>
-        <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 my-2">
-            <div class="card h-100 bx_size">
-                <img src="/images/sale/klipartz.com (4).png" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">آپدیت</h5>
-                    <p class="card-text">
-                        دیزاین مجدد و جذاب پروژه های قدیمی
-                        <br>
-                        بهبود پرفورمنس وبسایت
-                    </p>
-                    <a href="#" class="btn btn-outline-info">خرید طرح</a>
-                </div>
+            <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4"><i class="fa-solid fa-circle-plus"></i> طرح
+                    اقتصادی </span>
             </div>
+            <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4">
+                    <i class="fa-solid fa-xmark"></i>
+                    بستن
+                </span>
+                <p>
+                    حداقل قیمت
+                    <br>
+                    ظاهر ساده و زیبا
+                </p>
+            </div>
+            <a class="waves-effect waves-light btn-small m-b-10 blue lighten-1" href="tel:+989185940305"><i
+                    class="fa-solid fa-phone-volume"></i> مشاوره و خرید طرح </a>
+
         </div>
+
+        <div class="card col s12 m6 l3 hoverable">
+            <div class="card-image waves-effect waves-block waves-light">
+                <img class="activator max-w-100" src="/images/sale/whi.jpg">
+            </div>
+            <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4"><i class="fa-solid fa-circle-plus"></i> طرح
+                    ویژه </span>
+            </div>
+            <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4">
+                    <i class="fa-solid fa-xmark"></i>
+                    بستن
+                </span>
+                <p>
+                    پرفورمنس بالا
+                    <br>
+                    امنیت بالا
+                    <br>
+                    طراحی با سلیقه دلخواه
+                </p>
+            </div>
+            <a class="waves-effect waves-light btn-small m-b-10 blue lighten-1" href="tel:+989185940305"><i
+                    class="fa-solid fa-phone-volume"></i> مشاوره و خرید طرح </a>
+
+        </div>
+
+        <div class="card col s12 m6 l3 hoverable">
+            <div class="card-image waves-effect waves-block waves-light">
+                <img class="activator max-w-100" src="/images/sale/kk.png">
+            </div>
+            <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4"><i class="fa-solid fa-circle-plus"></i>
+                    مشارکت در پروژه </span>
+            </div>
+            <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4">
+                    <i class="fa-solid fa-xmark"></i>
+                    بستن
+                </span>
+                <p>
+                    مشارکت در ابرپروژه ها
+                    <br>
+                    طبق درخواست کارفرما </p>
+            </div>
+            <a class="waves-effect waves-light btn-small m-b-10 blue lighten-1" href="tel:+989185940305"><i
+                    class="fa-solid fa-phone-volume"></i> مشاوره و خرید طرح </a>
+
+        </div>
+
+        <div class="card col s12 m6 l3 hoverable">
+            <div class="card-image waves-effect waves-block waves-light">
+                <img class="activator max-w-100" src="/images/sale/kk.png">
+            </div>
+            <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4"><i class="fa-solid fa-circle-plus"></i> عیب
+                    یابی پروژه </span>
+            </div>
+            <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4">
+                    <i class="fa-solid fa-xmark"></i>
+                    بستن
+                </span>
+                <p>
+                    تعمیر و بازسازی وبسایت های قدیمی
+                    <br>
+                    باگ یابی و بهبود عملکرد سایت
+                </p>
+            </div>
+            <a class="waves-effect waves-light btn-small m-b-10 blue lighten-1" href="tel:+989185940305"><i
+                    class="fa-solid fa-phone-volume"></i> مشاوره و خرید طرح </a>
+
+        </div>
+
+        <div class="card col s12 m6 l3 hoverable">
+            <div class="card-image waves-effect waves-block waves-light">
+                <img class="activator max-w-100" src="/images/sale/kk.png">
+            </div>
+            <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4"><i class="fa-solid fa-circle-plus"></i> تامین
+                    امنیت </span>
+            </div>
+            <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4">
+                    <i class="fa-solid fa-xmark"></i>
+                    بستن
+                </span>
+                <p> عیب یابی و باگ یابی
+                    <br>
+                    تامین امنیت کد ها
+                    <br>
+                    حذف کد های مخرب </p>
+            </div>
+            <a class="waves-effect waves-light btn-small m-b-10 blue lighten-1" href="tel:+989185940305"><i
+                    class="fa-solid fa-phone-volume"></i> مشاوره و خرید طرح </a>
+
+        </div>
+
+        <div class="card col s12 m6 l3 hoverable">
+            <div class="card-image waves-effect waves-block waves-light">
+                <img class="activator max-w-100" src="/images/sale/kk.png">
+            </div>
+            <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4"><i class="fa-solid fa-circle-plus"></i> آپدیت
+                    وبسایت </span>
+            </div>
+            <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4">
+                    <i class="fa-solid fa-xmark"></i>
+                    بستن
+                </span>
+                <p>
+                    دیزاین مجدد و جذاب پروژه های قدیمی
+                    <br>
+                    بهبود پرفورمنس وبسایت </p>
+            </div>
+            <a class="waves-effect waves-light btn-small m-b-10 blue lighten-1" href="tel:+989185940305"><i
+                    class="fa-solid fa-phone-volume"></i> مشاوره و خرید طرح </a>
+
+        </div>
+
     </div>
     <!------------------------------------ Pricing Plans End------------------------------------>
 
     <!------------------------------------ Banner Start------------------------------------>
-    <div class="container text-center py-5">
-        <div class="row">
-            <div class=" col-sm-12 col-md-6 col-lg-6">
-                <img src="images/gif/web-development.gif" class="img-thumbnail" alt="">
-            </div>
-            <div class=" col-sm-12 col-md-6 col-lg-6 align-content-center justify-content-center">
-                <h2>دیده شدن همیشه با ایده های جدید ممکنه</h2>
-                <p>
-                    تیم خلاق با ایده های جذاب و جدید میتونه یه انتخاب تضمین شده برای کسب و کارت باشه
-                </p>
-            </div>
+
+    <div class="row z-depth-5 valign-wrapper">
+        <div class="col s12 m12 l6 hide-on-med-and-down">
+            <img src="images/gif/web-development.gif" class="w-full" alt="">
+        </div>
+        <div class="col s12 m12 l6 center-align">
+            <h2>دیده شدن همیشه با ایده های جدید ممکنه</h2>
+            <p>
+                تیم خلاق با ایده های جذاب و جدید میتونه یه انتخاب تضمین شده برای کسب و کارت باشه
+            </p>
         </div>
     </div>
-    <div class="container text-center py-5">
-        <div class="row">
-            <div class=" col-sm-12 col-md-12 col-lg-12">
-                <img src="images/gif/pxfuel (1).jpg" class="img-thumbnail" alt="">
-            </div>
-            <div class=" col-sm-12 col-md-12 col-lg-12 align-content-center justify-content-center">
-                <h2>با خیال راحت بک اند و فرانت اند رو به تیم ما بسپار</h2>
-                <p>
-                    وقتی میتونی جذابیت و امینت و پرفورمنس رو در کنار هم داشته باشی با خیال راحت انتخاب کن
-                    <br>
-                    یه پکیج کامل همیشه جوابه
-                </p>
-            </div>
+
+    <div class="row z-depth-5">
+        <div class="col s12 m12 l12">
+            <img src="images/gif/pxfuel (1).jpg" class="w-full">
+        </div>
+        <div class="col s12 m12 l12 center-align">
+            <h2>با خیال راحت بک اند و فرانت اند رو به تیم ما بسپار</h2>
+            <p>
+                وقتی میتونی جذابیت و امینت و پرفورمنس رو در کنار هم داشته باشی با خیال راحت انتخاب کن
+                <br>
+                یه پکیج کامل همیشه جوابه
+            </p>
         </div>
     </div>
-    <div class="container text-center py-5" dir="rtl">
-        <div class="row">
-            <div class=" col-sm-12 col-md-6 col-lg-6">
-                <img src="images/gif/about7.gif" class="img-thumbnail" alt="">
-            </div>
-            <div class=" col-sm-12 col-md-6 col-lg-6 align-content-center justify-content-center">
-                <h2>کار تیمی همیشه جواب میده</h2>
-                <p>
-                    کار تیمی بچه های ما همه ی نیاز های کارفرمارو جواب میده و با خیال راحت انتخابشو میکنه
-                    <br>
-                    کار تیمی کاملتر و سریع تر پیش میره همیشه
-                    <br>
-                    خلاصه کار تیمی همیشه جوابه
-                </p>
-            </div>
+
+    <div class="row z-depth-5 valign-wrapper">
+        <div class="col s12 m6 l6 hide-on-med-and-down">
+            <img src="images/gif/about7.gif" class="w-full" alt="">
+        </div>
+        <div class="col s12 m6 l6 center-align">
+            <h2>کار تیمی همیشه جواب میده</h2>
+            <p>
+                کار تیمی بچه های ما همه ی نیاز های کارفرمارو جواب میده و با خیال راحت انتخابشو میکنه
+                <br>
+                کار تیمی کاملتر و سریع تر پیش میره همیشه
+                <br>
+                خلاصه کار تیمی همیشه جوابه
         </div>
     </div>
     <!------------------------------------ Banner End------------------------------------>
 
-    <img src="/images/1.png" class="container-fluid col" alt="" id="tel_us">
+
+    <div class="img_cec_container row">
+        <img src="/images/1.png" class="img_cec col s12 m12 l4 xl4" alt="" id="tel_us">
+        <img src="/images/1.png" class="img_cec hide-on-med-and-down col s12 m10 l4 xl4 " alt="">
+        <img src="/images/1.png" class="img_cec hide-on-med-and-down col s12 m10 l4 xl4 " alt="">
+    </div>
+
 
     <!------------------------------------ Footer Start------------------------------------>
-    <div class="container-fluid my-5 ft_sec" dir="rtl">
-        <footer class="bg-info text-center text-lg-center text-white">
-            <div class="container p-4">
-                <div class="row my-4">
 
-                    <div class="col-lg-4 col-md-4 mb-4 mb-md-0 centered">
-                        <div class="rounded-circle bg-white shadow-1-strong d-flex align-items-center justify-content-center mb-4 mx-auto"
-                            style="width: 150px; height: 150px;">
-                            <img src="/images/images.png" height="70" alt="" loading="lazy" />
-                        </div>
-                        <h5 class="text-center">کیفیت .. امنیت .. سرعت</h5>
-                    </div>
-
-                    <div class="col-lg-4 col-md-4 mb-4">
-                        <ul class="list-unstyled">
-                            <h5 class="mb-4 ">حامیان سایت</h5>
-                            <li class="mb-2 ">
-                                <i class="fa-solid fa-money-check-dollar"></i>
-                                <a href="#" class="text-white link-underline link-underline-opacity-0">لیمو هاست</a>
-                            </li>
-                            <li class="mb-2 ">
-                                <i class="fa-solid fa-money-check-dollar"></i>
-                                <a href="#" class="text-white link-underline link-underline-opacity-0">پارس پک</a>
-                            </li>
-                            <li class="mb-2 ">
-                                <i class="fa-solid fa-money-check-dollar"></i>
-                                <a href="#" class="text-white link-underline link-underline-opacity-0">ایرانسل</a>
-                            </li>
-                            <li class="mb-2 ">
-                                <i class="fa-solid fa-money-check-dollar"></i>
-                                <a href="#" class="text-white link-underline link-underline-opacity-0">شاتل</a>
-                            </li>
-                        </ul>
-                    </div>
-
-                    <div class="col-lg-4 col-md-4 mb-4 mb-md-0 link_us">
-                        <ul class="list-unstyled">
-                            <h5 class="mb-4 ">تماس با ما</h5>
-                            <li>
-                                <p><i class="fa-solid fa-location-dot"></i>ایران / تهران</p>
-                            </li>
-                            <li>
-                                <p><i class="fa-sharp fa-solid fa-phone"></i>
-                                    <a href="tel:+989185940305" class="link-underline link-underline-opacity-0">
-                                        09185940305
-                                    </a>
-                                </p>
-                            </li>
-                            <li>
-                                <a href="https://t.me/telegram_link"><i class="fa-brands fa-telegram"></i></a>
-                                <a href="https://instagram.com/instagram_link"><i
-                                        class="fa-brands fa-square-instagram"></i></a>
-                                <a href="https://wa.me/989185940305"><i class="fa-brands fa-square-whatsapp"></i></a>
-                            </li>
-                            <li>
-                                <a href="mailto: abc@example.com"
-                                    class="link-underline link-underline-opacity-0">abc@example.com</a>
-                            </li>
-                        </ul>
-                    </div>
+    <footer class="page-footer red darken-1">
+        <div class="container center center-align">
+            <div class="row">
+                <div class="col l6 s12">
+                    <img src="/images/sale/klipartz.com (7).png" class="max-w-100" alt="">
+                    <p class="grey-text text-lighten-4"> توسعه ی هرکسب و کاری بدون شک با وبسایت منساب تظمین میشه </p>
+                </div>
+                <div class="col l4 offset-l2 s12">
+                    <h5 class="white-text">راه های ارتباطی با ما</h5>
+                    <ul>
+                        <li><i class="fa-sharp fa-solid fa-phone"></i>
+                            <a href="tel:+989185940305" class="link-underline link-underline-opacity-0">
+                                09185940305
+                            </a>
+                        </li>
+                        <br>
+                        <li><i class="fa-solid fa-location-dot"></i>ایران / تهران</li>
+                        <br>
+                        <li>
+                            <a href="https://t.me/telegram_link" class="m-l-5 m-r-5">
+                                <i class="fa-brands fa-telegram fa-2x"></i>
+                            </a>
+                            <a href="https://instagram.com/instagram_link" class="m-l-5 m-r-5">
+                                <i class="fa-brands fa-square-instagram fa-2x"></i>
+                            </a>
+                            <a href="https://wa.me/989185940305" class="m-l-5 m-r-5">
+                                <i class="fa-brands fa-square-whatsapp fa-2x"></i>
+                            </a>
+                        </li>
+                        <br>
+                        <li>
+                            <a href="mailto: abc@example.com"
+                                class="link-underline link-underline-opacity-0">abc@example.com</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
-            <div class=" p-3" style="background-color: rgba(0, 0, 0, 0.2)">
-                © 2024 Copyright:
-                <a class="text-white" href="#">OurExampels.com</a>
+        </div>
+        <div class="footer-copyright center-block">
+            <div class="container">
+                © 2014 Copyright Text
+                <a class="grey-text text-lighten-4 right" href="#!">OurExampels.co</a>
             </div>
-        </footer>
-    </div>
+        </div>
+    </footer>
     <!------------------------------------ Footer End------------------------------------>
 
 
-    <script src="/js/bootstrap.min.js">
-    </script>
+    <script src="/js/materialize.min.js"></script>
     <script src="https://kit.fontawesome.com/431b44931a.js" crossorigin="anonymous"></script>
+    <script src="/js/app.js"></script>
 </body>
 
 </html>
