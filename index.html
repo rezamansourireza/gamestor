@@ -9,13 +9,16 @@
     <link rel="stylesheet" href="/css/util.css">
     <link rel="stylesheet" href="/css/materialize.css">
     <link rel="stylesheet" href="/css/materialize-rtl.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 </head>
 
 <body>
     <!------------------------------------ navBat Start------------------------------------>
-    <header class="navbar-fixed">
-        <nav>
-            <div class="nav-wrapper grey darken-1">
+    <header>
+        <nav class="navbar-fixed">
+            <div class="nav-wrapper indigo accent-2">
                 <a href="#" class="brand-logo center center-align">
                     <img src="/images/klipartz.com.png" class="brand_logo align-items-lg-center navbar_logo" alt="">
                 </a>
@@ -61,7 +64,7 @@
 
 
     <div class="img_cec_container row">
-        <img src="/images/1.png" class="img_cec col s12 m12 l4 xl4" alt="" id="main">
+        <img src="/images/1.png" class="img_cec col s12 m12 l4 xl4" alt="">
         <img src="/images/1.png" class="img_cec hide-on-med-and-down col s12 m10 l4 xl4 " alt="">
         <img src="/images/1.png" class="img_cec hide-on-med-and-down col s12 m10 l4 xl4 " alt="">
     </div>
@@ -69,7 +72,7 @@
 
 
     <!------------------------------------ BodyCarousel Start------------------------------------>
-    <div class="carousel carousel-slider top_carousel">
+    <div class="carousel carousel-slider top_carousel" id="main">
         <a href="#" class="carousel-item">
             <img src="/images/carosel/a1.jpg" alt="">
         </a>
@@ -96,7 +99,7 @@
 
 
     <div class="img_cec_container row">
-        <img src="/images/1.png" class="img_cec col s12 m12 l4 xl4" alt="" id="price">
+        <img src="/images/1.png" class="img_cec col s12 m12 l4 xl4" alt="">
         <img src="/images/1.png" class="img_cec hide-on-med-and-down col s12 m10 l4 xl4 " alt="">
         <img src="/images/1.png" class="img_cec hide-on-med-and-down col s12 m10 l4 xl4 " alt="">
     </div>
@@ -104,7 +107,7 @@
 
 
     <!------------------------------------ Pricing Plans Start------------------------------------>
-    <div class="row">
+    <div class="row" id="price">
 
         <div class="card col s12 m6 l3 hoverable">
             <div class="card-image waves-effect waves-block waves-light">
@@ -346,8 +349,23 @@
     <!------------------------------------ Banner End------------------------------------>
 
 
+    <!------------------------------------ FloutingAction Btn Start------------------------------------>
+    <div class="fixed-action-btn">
+        <a class="btn-floating btn-large indigo accent-1 pulse">
+            <i class="fa-solid fa-circle-info"></i>
+        </a>
+        <ul>
+            <li><a class="btn-floating indigo accent-1" href="https://t.me/telegram_link"><i class="fa-brands fa-telegram"></i></a></li>
+            <li><a class="btn-floating indigo accent-1" href="mailto: abc@example.com"><i class="fa-solid fa-at"></i></a></li>
+            <li><a class="btn-floating indigo accent-1" href="https://wa.me/989185940305"><i class="fa-brands fa-whatsapp"></i></a></li>
+            <li><a class="btn-floating indigo accent-1" href="tel:+989185940305"><i class="fa-solid fa-phone"></i></a></li>
+        </ul>
+    </div>
+    <!------------------------------------ FloutingAction Btn End------------------------------------>
+
+
     <div class="img_cec_container row">
-        <img src="/images/1.png" class="img_cec col s12 m12 l4 xl4" alt="" id="tel_us">
+        <img src="/images/1.png" class="img_cec col s12 m12 l4 xl4" alt="">
         <img src="/images/1.png" class="img_cec hide-on-med-and-down col s12 m10 l4 xl4 " alt="">
         <img src="/images/1.png" class="img_cec hide-on-med-and-down col s12 m10 l4 xl4 " alt="">
     </div>
@@ -355,7 +373,7 @@
 
     <!------------------------------------ Footer Start------------------------------------>
 
-    <footer class="page-footer red darken-1">
+    <footer class="page-footer indigo accent-2" id="tel_us">
         <div class="container center center-align">
             <div class="row">
                 <div class="col l6 s12">
@@ -366,7 +384,7 @@
                     <h5 class="white-text">راه های ارتباطی با ما</h5>
                     <ul>
                         <li><i class="fa-sharp fa-solid fa-phone"></i>
-                            <a href="tel:+989185940305" class="link-underline link-underline-opacity-0">
+                            <a href="tel:+989185940305" class="link-underline link-underline-opacity-0 white-text">
                                 09185940305
                             </a>
                         </li>
@@ -375,19 +393,19 @@
                         <br>
                         <li>
                             <a href="https://t.me/telegram_link" class="m-l-5 m-r-5">
-                                <i class="fa-brands fa-telegram fa-2x"></i>
+                                <i class="fa-brands fa-telegram fa-2x white-text"></i>
                             </a>
                             <a href="https://instagram.com/instagram_link" class="m-l-5 m-r-5">
-                                <i class="fa-brands fa-square-instagram fa-2x"></i>
+                                <i class="fa-brands fa-square-instagram fa-2x white-text"></i>
                             </a>
                             <a href="https://wa.me/989185940305" class="m-l-5 m-r-5">
-                                <i class="fa-brands fa-square-whatsapp fa-2x"></i>
+                                <i class="fa-brands fa-square-whatsapp fa-2x white-text"></i>
                             </a>
                         </li>
                         <br>
                         <li>
                             <a href="mailto: abc@example.com"
-                                class="link-underline link-underline-opacity-0">abc@example.com</a>
+                                class="link-underline link-underline-opacity-0 white-text">abc@example.com</a>
                         </li>
                     </ul>
                 </div>
@@ -403,9 +421,10 @@
     <!------------------------------------ Footer End------------------------------------>
 
 
-    <script src="/js/materialize.min.js"></script>
+    <script src="/js/materialize.js"></script>
     <script src="https://kit.fontawesome.com/431b44931a.js" crossorigin="anonymous"></script>
     <script src="/js/app.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
 </body>
 
 </html>

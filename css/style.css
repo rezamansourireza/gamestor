@@ -53,10 +53,24 @@ nav .brand-logo img:hover{
 }
 
 
-/* .top_sec_nav {
-    margin-top: 64px;
-} */
 
+/* ====ScrollBar==== */
+::-webkit-scrollbar{
+    width: 5px !important;
+}
+
+::-webkit-scrollbar-track{
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb{
+    background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background: #555;
+}
+/* ====ScrollBar==== */
 
 .brand_logo {
     width: 2em;
