@@ -7,13 +7,27 @@
     font-style: normal;
 }
 
+:root {
+    scroll-behavior: smooth;
+    --firstColor: #3949ab;
+    --secendColor: #1976d2;
+    --transition: all ease 200ms;
+}
+
+header nav div{
+    color: var(--firstColor);
+}
+
+footer{
+    color: var(--firstColor);
+}
 
 body {
     background: url(/images/vp9.jpeg) repeat;
 }
 
 
-nav .brand-logo img{
+nav .brand-logo img {
     margin-top: 0.2rem;
     width: 50px;
     filter: drop-shadow(0 0 1px white);
@@ -21,13 +35,13 @@ nav .brand-logo img{
     transition: all ease 200ms;
 }
 
-nav .brand-logo img:hover{
-    filter: drop-shadow(0 0 5px #f3e5f5 );
+nav .brand-logo img:hover {
+    filter: drop-shadow(0 0 5px #f3e5f5);
     transition: all ease 200ms;
 
 }
 
-#mobile-demo{
+#mobile-demo {
     background: url(/images/gif/pxfuel.jpg);
     background-size: cover;
     background-position: center;
@@ -37,16 +51,18 @@ nav .brand-logo img:hover{
     justify-content: center;
 }
 
-#mobile-demo li{
+#mobile-demo li {
     width: 100%;
 }
-#mobile-demo li a{
+
+#mobile-demo li a {
     text-align: center;
     color: white;
-    transition: all 100ms ease;
+    transition: var(--transition);
 }
-#mobile-demo li a:hover{
-    background-color: rgba(0, 0, 0, 0.3);
+
+#mobile-demo li a:hover {
+    background-color: rgba(0, 0, 0, 0.2);
     font-size: 1.3rem;
     backdrop-filter: blur(1px);
     -webkit-backdrop-filter: blur(1px);
@@ -55,21 +71,22 @@ nav .brand-logo img:hover{
 
 
 /* ====ScrollBar==== */
-::-webkit-scrollbar{
+::-webkit-scrollbar {
     width: 5px !important;
 }
 
-::-webkit-scrollbar-track{
+::-webkit-scrollbar-track {
     background: #f1f1f1;
 }
 
-::-webkit-scrollbar-thumb{
+::-webkit-scrollbar-thumb {
     background: #888;
 }
 
-::-webkit-scrollbar-thumb:hover{
+::-webkit-scrollbar-thumb:hover {
     background: #555;
 }
+
 /* ====ScrollBar==== */
 
 .brand_logo {
